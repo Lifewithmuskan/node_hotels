@@ -1,0 +1,14 @@
+// app.post('/person',(req,res)=>{
+//     const data=req.body
+//     const newPerson=new Person(data);
+
+//     newPerson.save((error,savedPerson)=>{
+//         if(error){
+//             console.log('error saving person:', error);
+//             res.status(500).json({error:'Internal server error'})
+//         }else{
+//             console.log('data saved successfully');
+//             res.status(200).json(savedPerson);
+//         }
+//     })
+// })

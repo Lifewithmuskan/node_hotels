@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 const itemsMongoURL = process.env.MONGODB_LOCALURL;
 require('dotenv').config();
 const mongoURL=process.env.MONGODB ;
-
-// Set up MongoDB connection
+//connection
+// Set up MongoDB connection 
 mongoose.connect(mongoURL, {
     useNewUrlParser: true, // Corrected typo here
     useUnifiedTopology: true
